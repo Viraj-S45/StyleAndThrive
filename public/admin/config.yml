@@ -23,5 +23,5 @@ collections:
       - { label: "Slug", name: "slug", widget: "string", required: true, pattern: ['^[a-z0-9]+(?:-[a-z0-9]+)*$', 'Must be a valid URL slug (lowercase, hyphen-separated)'], hint: "Auto-generated from title, or customize it manually." }
       - { label: "Featured", name: "featured", widget: "boolean", default: false }
       - { label: "Publish Date", name: "pubDatetime", widget: "datetime" }
-      - { label: "Tags", name: "tags", widget: "list", allow_add: true }
+      - { label: "Tags", name: "tags", widget: "list", multiple: true, allow_add: true, options: ["add", "tags", "from", "config", ".yml"] }
       - { label: "Body", name: "body", widget: "markdown" }
