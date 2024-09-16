@@ -1,5 +1,4 @@
 ---
-layout: blog
 author: Viraj Shirodkar
 title: Testing Blog
 description: this is a blog for testing if the decap cms works
